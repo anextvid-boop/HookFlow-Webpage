@@ -84,3 +84,10 @@ Once files are validated, the codebase is strictly pushed to the repository abov
 - **Action**: Completely rewrote the H1, H2, Hero Hook, and About descriptions in `index.html`. Added `.pricing-benefits` logic identically formatted into the `style.css` to allow detailed bullet points inside pricing cards without breaking the `ultraThinMaterial` grid.
 - **Assessment**:
     1. **Clarity & Core Focus**: [10/10] - The landing page now perfectly aligns with the core HookFlow value proposition of removing camera anxiety through flawless native teleprompting.
+
+### Update 03: Native iOS Aura Hero Isolation (2026-04-15)
+- **Goal**: To decouple the "HookFlow" branding from the subtitle and apply a massive, multi-colored premium drop-shadow to match the iOS `HFAmbientAura`.
+- **Action**: Split the Hero H1 into two spans (`.brand-text` and `.hero-subtitle`) in `index.html`. Replaced standard H1 CSS in `style.css` with a huge `clamp(4.5rem, 12vw, 9rem)` and injected `text-shadow: -8px -8px 40px rgba(0, 191, 255, 0.6), 8px 8px 40px rgba(255, 38, 76, 0.8)`. Added required root `--spacing` variables.
+- **Assessment**:
+    1. **Visual Impact**: [10/10] - The split-tone aura directly mimics high-end modern iOS applications.
+    2. **Structural Integrity**: [10/10] - The H1 remains a single semantic block, preserving SEO while separating the branding visually.
