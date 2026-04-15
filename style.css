@@ -149,6 +149,13 @@ header h2 {
   margin-bottom: 20px;
 }
 
+.pricing-benefits {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: var(--text-secondary);
+  margin-top: 15px;
+}
+
 .badge {
   position: absolute;
   top: -12px;

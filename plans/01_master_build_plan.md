@@ -69,3 +69,12 @@ Strict declaration highlighting that HookFlow processes all recordings securely 
 - **Branch**: `main`
 
 Once files are validated, the codebase is strictly pushed to the repository above. It is ready to be directly hosted on GitHub pages configured with a custom domain linking to `hookflow.app/privacy` and `hookflow.app/terms`.
+
+## 6. Updates & Iterations
+
+### Update 01: Enhanced Branding (2026-04-15)
+- **Goal**: Make the "HookFlow" main title significantly larger for branding impact.
+- **Action**: Adjust the `clamp()` function in `style.css` for `header h1` to `clamp(3.5rem, 8vw, 6.5rem)` to dramatically increase visibility on both mobile and desktop.
+- **Assessment**:
+    1. **Branding Prominence**: [5/10 -> 9/10] - The original `4rem` cap was too small on desktop. The new `6.5rem` cap makes it a true hero element.
+    2. **Scalability**: [10/10] - Using `8vw` ensures proportional scaling across all viewports.
