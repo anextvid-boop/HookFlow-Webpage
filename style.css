@@ -5,6 +5,8 @@
   --text-primary: rgba(255, 255, 255, 1.0);
   --text-secondary: rgba(255, 255, 255, 0.6);
   --apple-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --spacing-sm: 10px;
+  --spacing-lg: 30px;
 }
 
 * {
@@ -32,11 +34,39 @@ header {
   transform: translateY(20px);
 }
 
-header h1 {
-  font-size: clamp(3.5rem, 8vw, 6.5rem);
+/* Core Hero Container */
+.hero-main {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+  line-height: 1.1;
+  margin-top: 0;
+}
+
+/* 
+  Massive HookFlow Brand Isolation 
+  Applies the dual-color overlapping shadow effect
+*/
+.brand-text {
+  display: block;
+  font-size: clamp(4.5rem, 12vw, 9rem);
   font-weight: 800;
-  margin: 0 0 10px 0;
-  letter-spacing: -1px;
+  color: #FFFFFF;
+  letter-spacing: -0.04em;
+  
+  /* The Multi-Color Overlapping Shadow Effect */
+  /* Top-left Teal/Blue vs Bottom-Right Premium Red */
+  text-shadow: 
+    -8px -8px 40px rgba(0, 191, 255, 0.6),
+     8px  8px 40px rgba(255, 38, 76, 0.8);
+}
+
+/* Secondary Subtitle Engine */
+.hero-subtitle {
+  display: block;
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: var(--spacing-sm);
 }
 
 header h2 {
