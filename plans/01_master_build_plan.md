@@ -47,6 +47,8 @@ Glassmorphic cards featuring the tiers:
 
 ### Legal Endpoints
 
+*Note: Use "HookFlow" as the official company entity and `support@hookflow.app` for all point-of-contact references in the legal phrasing.*
+
 **Terms (`terms.html`)**:
 Standard EULA addressing Apple Auto-Renewable Subscriptions (processed via iTunes, auto-renewal, manage in device settings, 24-hours cancellation policy).
 
@@ -62,4 +64,8 @@ Strict declaration highlighting that HookFlow processes all recordings securely 
 
 ## 5. Deployment Process
 
-Once files are validated, the codebase is ready to be directly hosted on GitHub pages configured with custom domain linking to `hookflow.app/privacy` and `hookflow.app/terms`.
+### Remote Repository
+- **URL**: `https://github.com/anextvid-boop/HookFlow-Webpage.git`
+- **Branch**: `main`
+
+Once files are validated, the codebase is strictly pushed to the repository above. It is ready to be directly hosted on GitHub pages configured with a custom domain linking to `hookflow.app/privacy` and `hookflow.app/terms`.
